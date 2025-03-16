@@ -25,3 +25,22 @@ To see the process tree
 ```ps -ejH```  
 ```ps -ejH | grep httpd```
 
+---
+
+## Kill Overview 
+
+```kill options PID```  
+Options = signal name or N0.  
+PID = Process ID  
+
+To see all the signal names  
+```kill -l```  
+
+__Most widely used kill commands__  
+
+```kill PID```  
+```kill -1 PID``` (to restart the process)  
+```kill -2 PID``` (interrupt from keyboard like Ctrl+C)  
+```kill -9 PID``` (forcefully terminate the process)  
+```kill -15 PID``` (kill process gracefully)  
+
