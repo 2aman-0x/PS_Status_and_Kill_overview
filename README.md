@@ -30,8 +30,8 @@ Ideally it gives you more information.__
 ## Kill Overview 
 
 ```kill options PID```  
-Options = signal name or N0.  
-PID = Process ID  
+- Options = signal name or N0.  
+- PID = Process ID  
 
 To see all the signal names  
 ```kill -l```  
