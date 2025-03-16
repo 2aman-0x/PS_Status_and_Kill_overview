@@ -12,16 +12,16 @@ CMD - name of the command that launched the progran.
 ```ps -a```  
 ```ps -ef| ef``` for full format
 
-To see all running process in BSD (Berkeley Software Distribution) format.  
-Ideally it gives you more information.  
+- __To see all running process in BSD (Berkeley Software Distribution) format.  
+Ideally it gives you more information.__  
 ```ps aux```  
 ```ps -ef | grep httpd```  
 
-To see the process by username  
+- __To see the process by username__  
 ```ps -u root```  
 ```ps -G kali```  
 
-To see the process tree  
+- __To see the process tree__  
 ```ps -ejH```  
 ```ps -ejH | grep httpd```
 
