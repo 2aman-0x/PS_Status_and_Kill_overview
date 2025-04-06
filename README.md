@@ -1,3 +1,5 @@
+source : [here](https://youtu.be/vvZcssOpuIk?si=A59knCsnydOSjNrA)
+
 ## PS (Process Status)
 used to display all the running process in the linux system.  
 
